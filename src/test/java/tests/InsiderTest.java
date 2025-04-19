@@ -9,6 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import pages.BasePage;
 
 import java.time.Duration;
+import java.util.LinkedList;
+
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class InsiderTest {
@@ -28,6 +30,7 @@ public class InsiderTest {
     @Test
     public void testHomePageIsDisplayed() {
         assertTrue(basePage.isHomePageDisplayed(), "Home page goruntulenemedi.");
+
     }
 
     @Test
